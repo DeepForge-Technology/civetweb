@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_set_max_msg_size.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2E339203-0415-33F9-90D9-8182E48F73AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

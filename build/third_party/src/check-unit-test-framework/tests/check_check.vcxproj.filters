@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_exit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_fixture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_fork.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_limit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_log_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_master.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_msg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_pack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_selective.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_sub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check_tags.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\check_check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FDFA149F-096B-39E1-8B09-E9ECD01BBA91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2E339203-0415-33F9-90D9-8182E48F73AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

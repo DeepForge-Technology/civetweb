@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\997ccd7ce635696a4b9525d0aee95780\check-unit-test-framework-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\997ccd7ce635696a4b9525d0aee95780\check-unit-test-framework-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\997ccd7ce635696a4b9525d0aee95780\check-unit-test-framework-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\997ccd7ce635696a4b9525d0aee95780\check-unit-test-framework-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\997ccd7ce635696a4b9525d0aee95780\check-unit-test-framework-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\997ccd7ce635696a4b9525d0aee95780\check-unit-test-framework-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\997ccd7ce635696a4b9525d0aee95780\check-unit-test-framework-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\8293bec75df317649554ef9c814f9e14\check-unit-test-framework-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\CMakeFiles\847e183ba4ec9e629047b095f90016df\check-unit-test-framework.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\unittest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Blackflame\civetweb\build\unittest\CMakeFiles\check-unit-test-framework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4EBAA786-41C3-3545-AB1E-5B64AA6E4C1B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

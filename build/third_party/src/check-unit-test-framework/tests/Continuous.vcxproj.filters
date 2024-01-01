@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\CMakeFiles\18b8b9ff050ac26259facea2f097da45\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Blackflame\civetweb\build\third_party\src\check-unit-test-framework\tests\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5D3499AC-F028-3C38-A59F-72EE30CC707B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

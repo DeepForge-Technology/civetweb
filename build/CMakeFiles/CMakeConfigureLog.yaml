@@ -1,0 +1,2009 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+      Сборка начата 01.01.2024 16:16:21.
+      
+      Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:02.10
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Blackflame/civetweb/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+      Сборка начата 01.01.2024 16:16:24.
+      
+      Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:02.11
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Blackflame/civetweb/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1hvd1n"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1hvd1n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1hvd1n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7fab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:27.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hvd1n\\cmTC_f7fab.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f7fab.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hvd1n\\Debug\\".
+          Создание каталога "cmTC_f7fab.dir\\Debug\\cmTC_f7fab.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f7fab.dir\\Debug\\cmTC_f7fab.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_f7fab.dir\\Debug\\cmTC_f7fab.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7fab.dir\\Debug\\\\" /Fd"cmTC_f7fab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7fab.dir\\Debug\\\\" /Fd"cmTC_f7fab.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hvd1n\\Debug\\cmTC_f7fab.exe" /INCREMENTAL /ILK:"cmTC_f7fab.dir\\Debug\\cmTC_f7fab.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1hvd1n/Debug/cmTC_f7fab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1hvd1n/Debug/cmTC_f7fab.lib" /MACHINE:X64  /machine:x64 cmTC_f7fab.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f7fab.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hvd1n\\Debug\\cmTC_f7fab.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hvd1n\\Debug\\cmTC_f7fab.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_f7fab.dir\\Debug\\cmTC_f7fab.tlog\\cmTC_f7fab.write.1u.tlog" "cmTC_f7fab.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_f7fab.dir\\Debug\\cmTC_f7fab.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_f7fab.dir\\Debug\\cmTC_f7fab.tlog\\cmTC_f7fab.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1hvd1n\\cmTC_f7fab.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.06
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-2zinda"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-2zinda"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-2zinda'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dc2ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:29.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zinda\\cmTC_dc2ba.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_dc2ba.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zinda\\Debug\\".
+          Создание каталога "cmTC_dc2ba.dir\\Debug\\cmTC_dc2ba.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_dc2ba.dir\\Debug\\cmTC_dc2ba.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_dc2ba.dir\\Debug\\cmTC_dc2ba.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc2ba.dir\\Debug\\\\" /Fd"cmTC_dc2ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_dc2ba.dir\\Debug\\\\" /Fd"cmTC_dc2ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zinda\\Debug\\cmTC_dc2ba.exe" /INCREMENTAL /ILK:"cmTC_dc2ba.dir\\Debug\\cmTC_dc2ba.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-2zinda/Debug/cmTC_dc2ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-2zinda/Debug/cmTC_dc2ba.lib" /MACHINE:X64  /machine:x64 cmTC_dc2ba.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_dc2ba.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zinda\\Debug\\cmTC_dc2ba.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zinda\\Debug\\cmTC_dc2ba.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_dc2ba.dir\\Debug\\cmTC_dc2ba.tlog\\cmTC_dc2ba.write.1u.tlog" "cmTC_dc2ba.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_dc2ba.dir\\Debug\\cmTC_dc2ba.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_dc2ba.dir\\Debug\\cmTC_dc2ba.tlog\\cmTC_dc2ba.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2zinda\\cmTC_dc2ba.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:308 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_STD_C11"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-sp80hu"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-sp80hu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_STD_C11"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-sp80hu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3f577.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:32.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\cmTC_3f577.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_3f577.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\Debug\\".
+          Создание каталога "cmTC_3f577.dir\\Debug\\cmTC_3f577.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_3f577.dir\\Debug\\cmTC_3f577.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_3f577.dir\\Debug\\cmTC_3f577.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STD_C11 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f577.dir\\Debug\\\\" /Fd"cmTC_3f577.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -std=c11 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STD_C11 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f577.dir\\Debug\\\\" /Fd"cmTC_3f577.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -std=c11 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-std=c11" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\cmTC_3f577.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\Debug\\cmTC_3f577.exe" /INCREMENTAL /ILK:"cmTC_3f577.dir\\Debug\\cmTC_3f577.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-sp80hu/Debug/cmTC_3f577.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-sp80hu/Debug/cmTC_3f577.lib" /MACHINE:X64  /machine:x64 cmTC_3f577.dir\\Debug\\src.obj
+          cmTC_3f577.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\Debug\\cmTC_3f577.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\Debug\\cmTC_3f577.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_3f577.dir\\Debug\\cmTC_3f577.tlog\\cmTC_3f577.write.1u.tlog" "cmTC_3f577.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_3f577.dir\\Debug\\cmTC_3f577.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_3f577.dir\\Debug\\cmTC_3f577.tlog\\cmTC_3f577.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\cmTC_3f577.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\cmTC_3f577.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-std=c11" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sp80hu\\cmTC_3f577.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:310 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_STD_C99"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1ctlli"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1ctlli"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_STD_C99"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1ctlli'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd020.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:34.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\cmTC_cd020.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_cd020.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\Debug\\".
+          Создание каталога "cmTC_cd020.dir\\Debug\\cmTC_cd020.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_cd020.dir\\Debug\\cmTC_cd020.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_cd020.dir\\Debug\\cmTC_cd020.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STD_C99 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd020.dir\\Debug\\\\" /Fd"cmTC_cd020.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -std=c99 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STD_C99 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd020.dir\\Debug\\\\" /Fd"cmTC_cd020.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -std=c99 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-std=c99" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\cmTC_cd020.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\Debug\\cmTC_cd020.exe" /INCREMENTAL /ILK:"cmTC_cd020.dir\\Debug\\cmTC_cd020.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1ctlli/Debug/cmTC_cd020.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-1ctlli/Debug/cmTC_cd020.lib" /MACHINE:X64  /machine:x64 cmTC_cd020.dir\\Debug\\src.obj
+          cmTC_cd020.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\Debug\\cmTC_cd020.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\Debug\\cmTC_cd020.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_cd020.dir\\Debug\\cmTC_cd020.tlog\\cmTC_cd020.write.1u.tlog" "cmTC_cd020.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_cd020.dir\\Debug\\cmTC_cd020.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_cd020.dir\\Debug\\cmTC_cd020.tlog\\cmTC_cd020.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\cmTC_cd020.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\cmTC_cd020.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-std=c99" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1ctlli\\cmTC_cd020.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.11
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:312 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_STD_C89"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-tqe7ol"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-tqe7ol"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_STD_C89"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-tqe7ol'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_80230.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:37.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\cmTC_80230.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_80230.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\Debug\\".
+          Создание каталога "cmTC_80230.dir\\Debug\\cmTC_80230.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_80230.dir\\Debug\\cmTC_80230.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_80230.dir\\Debug\\cmTC_80230.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STD_C89 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80230.dir\\Debug\\\\" /Fd"cmTC_80230.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -std=c89 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STD_C89 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80230.dir\\Debug\\\\" /Fd"cmTC_80230.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -std=c89 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-std=c89" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\cmTC_80230.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\Debug\\cmTC_80230.exe" /INCREMENTAL /ILK:"cmTC_80230.dir\\Debug\\cmTC_80230.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-tqe7ol/Debug/cmTC_80230.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-tqe7ol/Debug/cmTC_80230.lib" /MACHINE:X64  /machine:x64 cmTC_80230.dir\\Debug\\src.obj
+          cmTC_80230.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\Debug\\cmTC_80230.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\Debug\\cmTC_80230.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_80230.dir\\Debug\\cmTC_80230.tlog\\cmTC_80230.write.1u.tlog" "cmTC_80230.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_80230.dir\\Debug\\cmTC_80230.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_80230.dir\\Debug\\cmTC_80230.tlog\\cmTC_80230.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\cmTC_80230.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\cmTC_80230.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-std=c89" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tqe7ol\\cmTC_80230.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:330 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSANITIZE_UNDEFINED"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ugn4ef"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ugn4ef"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSANITIZE_UNDEFINED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ugn4ef'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9d68e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:39.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\cmTC_9d68e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_9d68e.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\Debug\\".
+          Создание каталога "cmTC_9d68e.dir\\Debug\\cmTC_9d68e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_9d68e.dir\\Debug\\cmTC_9d68e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_9d68e.dir\\Debug\\cmTC_9d68e.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSANITIZE_UNDEFINED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d68e.dir\\Debug\\\\" /Fd"cmTC_9d68e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -fsanitize=undefined "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSANITIZE_UNDEFINED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d68e.dir\\Debug\\\\" /Fd"cmTC_9d68e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -fsanitize=undefined "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-fsanitize=undefined" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\cmTC_9d68e.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\Debug\\cmTC_9d68e.exe" /INCREMENTAL /ILK:"cmTC_9d68e.dir\\Debug\\cmTC_9d68e.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ugn4ef/Debug/cmTC_9d68e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ugn4ef/Debug/cmTC_9d68e.lib" /MACHINE:X64  /machine:x64 cmTC_9d68e.dir\\Debug\\src.obj
+          cmTC_9d68e.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\Debug\\cmTC_9d68e.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\Debug\\cmTC_9d68e.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9d68e.dir\\Debug\\cmTC_9d68e.tlog\\cmTC_9d68e.write.1u.tlog" "cmTC_9d68e.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_9d68e.dir\\Debug\\cmTC_9d68e.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_9d68e.dir\\Debug\\cmTC_9d68e.tlog\\cmTC_9d68e.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\cmTC_9d68e.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\cmTC_9d68e.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-fsanitize=undefined" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ugn4ef\\cmTC_9d68e.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:01.98
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:331 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSANITIZE_ADDRESS"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7kh8jj"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7kh8jj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSANITIZE_ADDRESS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7kh8jj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_425b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:42.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\cmTC_425b0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_425b0.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\Debug\\".
+          Создание каталога "cmTC_425b0.dir\\Debug\\cmTC_425b0.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_425b0.dir\\Debug\\cmTC_425b0.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_425b0.dir\\Debug\\cmTC_425b0.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSANITIZE_ADDRESS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_425b0.dir\\Debug\\\\" /Fd"cmTC_425b0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -fsanitize=address "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSANITIZE_ADDRESS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_425b0.dir\\Debug\\\\" /Fd"cmTC_425b0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -fsanitize=address "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\Debug\\cmTC_425b0.exe" /INCREMENTAL /ILK:"cmTC_425b0.dir\\Debug\\cmTC_425b0.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7kh8jj/Debug/cmTC_425b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7kh8jj/Debug/cmTC_425b0.lib" /MACHINE:X64  /machine:x64 cmTC_425b0.dir\\Debug\\src.obj
+          cmTC_425b0.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\Debug\\cmTC_425b0.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\Debug\\cmTC_425b0.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_425b0.dir\\Debug\\cmTC_425b0.tlog\\cmTC_425b0.write.1u.tlog" "cmTC_425b0.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_425b0.dir\\Debug\\cmTC_425b0.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_425b0.dir\\Debug\\cmTC_425b0.tlog\\cmTC_425b0.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7kh8jj\\cmTC_425b0.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.18
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:333 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_STATIC_ASAN"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-huqqfv"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-huqqfv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_STATIC_ASAN"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-huqqfv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9da10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:44.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\cmTC_9da10.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_9da10.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\Debug\\".
+          Создание каталога "cmTC_9da10.dir\\Debug\\cmTC_9da10.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_9da10.dir\\Debug\\cmTC_9da10.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_9da10.dir\\Debug\\cmTC_9da10.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STATIC_ASAN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9da10.dir\\Debug\\\\" /Fd"cmTC_9da10.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -static-asan "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_STATIC_ASAN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9da10.dir\\Debug\\\\" /Fd"cmTC_9da10.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -static-asan "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-static-asan" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\cmTC_9da10.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\Debug\\cmTC_9da10.exe" /INCREMENTAL /ILK:"cmTC_9da10.dir\\Debug\\cmTC_9da10.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-huqqfv/Debug/cmTC_9da10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-huqqfv/Debug/cmTC_9da10.lib" /MACHINE:X64  /machine:x64 cmTC_9da10.dir\\Debug\\src.obj
+          cmTC_9da10.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\Debug\\cmTC_9da10.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\Debug\\cmTC_9da10.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9da10.dir\\Debug\\cmTC_9da10.tlog\\cmTC_9da10.write.1u.tlog" "cmTC_9da10.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_9da10.dir\\Debug\\cmTC_9da10.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_9da10.dir\\Debug\\cmTC_9da10.tlog\\cmTC_9da10.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\cmTC_9da10.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\cmTC_9da10.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-static-asan" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-huqqfv\\cmTC_9da10.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:360 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_COVERAGE"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-8ry079"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-8ry079"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-8ry079'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_478cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:47.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\cmTC_478cf.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_478cf.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\Debug\\".
+          Создание каталога "cmTC_478cf.dir\\Debug\\cmTC_478cf.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_478cf.dir\\Debug\\cmTC_478cf.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_478cf.dir\\Debug\\cmTC_478cf.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_COVERAGE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_478cf.dir\\Debug\\\\" /Fd"cmTC_478cf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  --coverage "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_COVERAGE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_478cf.dir\\Debug\\\\" /Fd"cmTC_478cf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  --coverage "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "--coverage" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\cmTC_478cf.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\Debug\\cmTC_478cf.exe" /INCREMENTAL /ILK:"cmTC_478cf.dir\\Debug\\cmTC_478cf.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-8ry079/Debug/cmTC_478cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-8ry079/Debug/cmTC_478cf.lib" /MACHINE:X64  /machine:x64 cmTC_478cf.dir\\Debug\\src.obj
+          cmTC_478cf.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\Debug\\cmTC_478cf.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\Debug\\cmTC_478cf.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_478cf.dir\\Debug\\cmTC_478cf.tlog\\cmTC_478cf.write.1u.tlog" "cmTC_478cf.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_478cf.dir\\Debug\\cmTC_478cf.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_478cf.dir\\Debug\\cmTC_478cf.tlog\\cmTC_478cf.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\cmTC_478cf.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\cmTC_478cf.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "--coverage" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8ry079\\cmTC_478cf.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:419 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WALL"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-n7g2r9"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-n7g2r9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-n7g2r9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5e11e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:49.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\cmTC_5e11e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5e11e.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\Debug\\".
+          Создание каталога "cmTC_5e11e.dir\\Debug\\cmTC_5e11e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5e11e.dir\\Debug\\cmTC_5e11e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_5e11e.dir\\Debug\\cmTC_5e11e.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WALL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e11e.dir\\Debug\\\\" /Fd"cmTC_5e11e.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WALL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e11e.dir\\Debug\\\\" /Fd"cmTC_5e11e.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\Debug\\cmTC_5e11e.exe" /INCREMENTAL /ILK:"cmTC_5e11e.dir\\Debug\\cmTC_5e11e.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-n7g2r9/Debug/cmTC_5e11e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-n7g2r9/Debug/cmTC_5e11e.lib" /MACHINE:X64  /machine:x64 cmTC_5e11e.dir\\Debug\\src.obj
+          cmTC_5e11e.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\Debug\\cmTC_5e11e.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\Debug\\cmTC_5e11e.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5e11e.dir\\Debug\\cmTC_5e11e.tlog\\cmTC_5e11e.write.1u.tlog" "cmTC_5e11e.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_5e11e.dir\\Debug\\cmTC_5e11e.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5e11e.dir\\Debug\\cmTC_5e11e.tlog\\cmTC_5e11e.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n7g2r9\\cmTC_5e11e.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:420 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WEXTRA"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-p0qp1g"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-p0qp1g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-p0qp1g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_86fa4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:52.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\cmTC_86fa4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_86fa4.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\Debug\\".
+          Создание каталога "cmTC_86fa4.dir\\Debug\\cmTC_86fa4.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_86fa4.dir\\Debug\\cmTC_86fa4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_86fa4.dir\\Debug\\cmTC_86fa4.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WEXTRA /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86fa4.dir\\Debug\\\\" /Fd"cmTC_86fa4.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wextra "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WEXTRA /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86fa4.dir\\Debug\\\\" /Fd"cmTC_86fa4.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wextra "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wextra" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\cmTC_86fa4.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\cmTC_86fa4.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\cmTC_86fa4.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wextra" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p0qp1g\\cmTC_86fa4.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:421 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WSHADOW"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-vcee8r"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-vcee8r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-vcee8r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61051.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:53.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\cmTC_61051.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_61051.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\Debug\\".
+          Создание каталога "cmTC_61051.dir\\Debug\\cmTC_61051.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_61051.dir\\Debug\\cmTC_61051.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_61051.dir\\Debug\\cmTC_61051.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WSHADOW /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61051.dir\\Debug\\\\" /Fd"cmTC_61051.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wshadow "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WSHADOW /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61051.dir\\Debug\\\\" /Fd"cmTC_61051.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wshadow "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wshadow" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\cmTC_61051.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\cmTC_61051.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\cmTC_61051.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wshadow" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vcee8r\\cmTC_61051.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.57
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:422 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WCONVERSION"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-9ot8mv"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-9ot8mv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WCONVERSION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-9ot8mv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9f89.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:54.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\cmTC_e9f89.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e9f89.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\Debug\\".
+          Создание каталога "cmTC_e9f89.dir\\Debug\\cmTC_e9f89.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e9f89.dir\\Debug\\cmTC_e9f89.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e9f89.dir\\Debug\\cmTC_e9f89.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WCONVERSION /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9f89.dir\\Debug\\\\" /Fd"cmTC_e9f89.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wconversion "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WCONVERSION /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9f89.dir\\Debug\\\\" /Fd"cmTC_e9f89.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wconversion "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wconversion" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\cmTC_e9f89.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\cmTC_e9f89.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\cmTC_e9f89.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wconversion" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ot8mv\\cmTC_e9f89.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:423 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WMISSING_PROTOTYPES"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-5700in"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-5700in"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WMISSING_PROTOTYPES"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-5700in'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2c893.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:55.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\cmTC_2c893.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_2c893.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\Debug\\".
+          Создание каталога "cmTC_2c893.dir\\Debug\\cmTC_2c893.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_2c893.dir\\Debug\\cmTC_2c893.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_2c893.dir\\Debug\\cmTC_2c893.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WMISSING_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c893.dir\\Debug\\\\" /Fd"cmTC_2c893.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wmissing-prototypes "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WMISSING_PROTOTYPES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c893.dir\\Debug\\\\" /Fd"cmTC_2c893.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wmissing-prototypes "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wmissing-prototypes" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\cmTC_2c893.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\cmTC_2c893.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\cmTC_2c893.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wmissing-prototypes" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5700in\\cmTC_2c893.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.62
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:424 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WEVERYTHING"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-qdwis7"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-qdwis7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WEVERYTHING"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-qdwis7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b766e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:56.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\cmTC_b766e.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_b766e.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\Debug\\".
+          Создание каталога "cmTC_b766e.dir\\Debug\\cmTC_b766e.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_b766e.dir\\Debug\\cmTC_b766e.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_b766e.dir\\Debug\\cmTC_b766e.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WEVERYTHING /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b766e.dir\\Debug\\\\" /Fd"cmTC_b766e.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Weverything "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WEVERYTHING /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b766e.dir\\Debug\\\\" /Fd"cmTC_b766e.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Weverything "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Weverything" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\cmTC_b766e.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\cmTC_b766e.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\cmTC_b766e.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Weverything" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qdwis7\\cmTC_b766e.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:425 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WPARENTHESES"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-cte6xj"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-cte6xj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WPARENTHESES"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-cte6xj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cb7df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:57.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\cmTC_cb7df.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_cb7df.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\Debug\\".
+          Создание каталога "cmTC_cb7df.dir\\Debug\\cmTC_cb7df.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_cb7df.dir\\Debug\\cmTC_cb7df.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_cb7df.dir\\Debug\\cmTC_cb7df.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WPARENTHESES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb7df.dir\\Debug\\\\" /Fd"cmTC_cb7df.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wparentheses "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /Wall /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WPARENTHESES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb7df.dir\\Debug\\\\" /Fd"cmTC_cb7df.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wparentheses "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wparentheses" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\cmTC_cb7df.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\cmTC_cb7df.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\cmTC_cb7df.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wparentheses" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cte6xj\\cmTC_cb7df.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:426 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_W4"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-0nf6s3"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-0nf6s3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_W4"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-0nf6s3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e1c42.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:16:58.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\cmTC_e1c42.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e1c42.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\Debug\\".
+          Создание каталога "cmTC_e1c42.dir\\Debug\\cmTC_e1c42.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e1c42.dir\\Debug\\cmTC_e1c42.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e1c42.dir\\Debug\\cmTC_e1c42.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_W4 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1c42.dir\\Debug\\\\" /Fd"cmTC_e1c42.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_W4 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1c42.dir\\Debug\\\\" /Fd"cmTC_e1c42.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\Debug\\cmTC_e1c42.exe" /INCREMENTAL /ILK:"cmTC_e1c42.dir\\Debug\\cmTC_e1c42.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-0nf6s3/Debug/cmTC_e1c42.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-0nf6s3/Debug/cmTC_e1c42.lib" /MACHINE:X64  /machine:x64 cmTC_e1c42.dir\\Debug\\src.obj
+          cmTC_e1c42.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\Debug\\cmTC_e1c42.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\Debug\\cmTC_e1c42.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e1c42.dir\\Debug\\cmTC_e1c42.tlog\\cmTC_e1c42.write.1u.tlog" "cmTC_e1c42.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_e1c42.dir\\Debug\\cmTC_e1c42.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e1c42.dir\\Debug\\cmTC_e1c42.tlog\\cmTC_e1c42.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0nf6s3\\cmTC_e1c42.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.12
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:429 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_PADDED"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-vkg10m"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-vkg10m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_PADDED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-vkg10m'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bcaee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:00.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\cmTC_bcaee.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_bcaee.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\Debug\\".
+          Создание каталога "cmTC_bcaee.dir\\Debug\\cmTC_bcaee.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_bcaee.dir\\Debug\\cmTC_bcaee.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_bcaee.dir\\Debug\\cmTC_bcaee.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_PADDED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcaee.dir\\Debug\\\\" /Fd"cmTC_bcaee.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-padded "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_PADDED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcaee.dir\\Debug\\\\" /Fd"cmTC_bcaee.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-padded "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-padded" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\cmTC_bcaee.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\cmTC_bcaee.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\cmTC_bcaee.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-padded" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vkg10m\\cmTC_bcaee.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:430 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_UNUSED_MACROS"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-x5z3mc"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-x5z3mc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_UNUSED_MACROS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-x5z3mc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cfaa8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:01.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\cmTC_cfaa8.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_cfaa8.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\Debug\\".
+          Создание каталога "cmTC_cfaa8.dir\\Debug\\cmTC_cfaa8.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_cfaa8.dir\\Debug\\cmTC_cfaa8.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_cfaa8.dir\\Debug\\cmTC_cfaa8.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_UNUSED_MACROS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cfaa8.dir\\Debug\\\\" /Fd"cmTC_cfaa8.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-unused-macros "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_UNUSED_MACROS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cfaa8.dir\\Debug\\\\" /Fd"cmTC_cfaa8.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-unused-macros "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-unused-macros" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\cmTC_cfaa8.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\cmTC_cfaa8.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\cmTC_cfaa8.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-unused-macros" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5z3mc\\cmTC_cfaa8.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.57
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:431 (Check_C_Compiler_Flag)"
+    checks:
+      - "Performing Test -Wno-reserved-id-macros"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7byoy6"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7byoy6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "-Wno-reserved-id-macros"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-7byoy6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_142b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:02.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\cmTC_142b5.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_142b5.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\Debug\\".
+          Создание каталога "cmTC_142b5.dir\\Debug\\cmTC_142b5.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_142b5.dir\\Debug\\cmTC_142b5.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_142b5.dir\\Debug\\cmTC_142b5.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "-Wno-reserved-id-macros" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_142b5.dir\\Debug\\\\" /Fd"cmTC_142b5.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  HAVE_NO_RESERVED_ID_MACROS "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "-Wno-reserved-id-macros" /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_142b5.dir\\Debug\\\\" /Fd"cmTC_142b5.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  HAVE_NO_RESERVED_ID_MACROS "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\src.c"
+          HAVE_NO_RESERVED_ID_MACROS
+          src.c
+          Создание кода...
+        /HAVE_NO_RESERVED_ID_MACROS(1,1): error C1083: Не удается открыть файл источник: HAVE_NO_RESERVED_ID_MACROS: No such file or directory, [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\cmTC_142b5.vcxproj]
+          (компиляция исходного файла "/HAVE_NO_RESERVED_ID_MACROS")
+          
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\cmTC_142b5.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\cmTC_142b5.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          /HAVE_NO_RESERVED_ID_MACROS(1,1): error C1083: Не удается открыть файл источник: HAVE_NO_RESERVED_ID_MACROS: No such file or directory, [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7byoy6\\cmTC_142b5.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.73
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:435 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_FORMAT_NONLITERAL"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-a7sqq4"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-a7sqq4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_FORMAT_NONLITERAL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-a7sqq4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_43cc5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:04.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\cmTC_43cc5.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_43cc5.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\Debug\\".
+          Создание каталога "cmTC_43cc5.dir\\Debug\\cmTC_43cc5.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_43cc5.dir\\Debug\\cmTC_43cc5.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_43cc5.dir\\Debug\\cmTC_43cc5.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_FORMAT_NONLITERAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43cc5.dir\\Debug\\\\" /Fd"cmTC_43cc5.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-format-nonliteral "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_FORMAT_NONLITERAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43cc5.dir\\Debug\\\\" /Fd"cmTC_43cc5.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-format-nonliteral "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-format-nonliteral" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\cmTC_43cc5.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\cmTC_43cc5.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\cmTC_43cc5.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-format-nonliteral" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a7sqq4\\cmTC_43cc5.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:436 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WNO_CAST_QUAL"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-jmaz64"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-jmaz64"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WNO_CAST_QUAL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-jmaz64'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8b822.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:05.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\cmTC_8b822.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_8b822.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\Debug\\".
+          Создание каталога "cmTC_8b822.dir\\Debug\\cmTC_8b822.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_8b822.dir\\Debug\\cmTC_8b822.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_8b822.dir\\Debug\\cmTC_8b822.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_CAST_QUAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b822.dir\\Debug\\\\" /Fd"cmTC_8b822.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-cast-qual "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WNO_CAST_QUAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b822.dir\\Debug\\\\" /Fd"cmTC_8b822.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -Wno-cast-qual "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-cast-qual" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\cmTC_8b822.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\cmTC_8b822.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\cmTC_8b822.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wno-cast-qual" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jmaz64\\cmTC_8b822.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.59
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:437 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_WD4820"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-k7otoo"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-k7otoo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_WD4820"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-k7otoo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f842c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:06.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\cmTC_f842c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_f842c.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\Debug\\".
+          Создание каталога "cmTC_f842c.dir\\Debug\\cmTC_f842c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_f842c.dir\\Debug\\cmTC_f842c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_f842c.dir\\Debug\\cmTC_f842c.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WD4820 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f842c.dir\\Debug\\\\" /Fd"cmTC_f842c.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  /Wd4820 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_WD4820 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f842c.dir\\Debug\\\\" /Fd"cmTC_f842c.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  /Wd4820 "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Wd4820" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\cmTC_f842c.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\cmTC_f842c.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\cmTC_f842c.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Wd4820" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7otoo\\cmTC_f842c.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:439 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-xfdvbs"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-xfdvbs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-xfdvbs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_82187.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:07.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\cmTC_82187.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_82187.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\Debug\\".
+          Создание каталога "cmTC_82187.dir\\Debug\\cmTC_82187.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_82187.dir\\Debug\\cmTC_82187.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_82187.dir\\Debug\\cmTC_82187.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_PEDANTIC_ERRORS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82187.dir\\Debug\\\\" /Fd"cmTC_82187.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -pedantic-errors "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_PEDANTIC_ERRORS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82187.dir\\Debug\\\\" /Fd"cmTC_82187.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -pedantic-errors "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-pedantic-errors" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\cmTC_82187.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\Debug\\cmTC_82187.exe" /INCREMENTAL /ILK:"cmTC_82187.dir\\Debug\\cmTC_82187.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-xfdvbs/Debug/cmTC_82187.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-xfdvbs/Debug/cmTC_82187.lib" /MACHINE:X64  /machine:x64 cmTC_82187.dir\\Debug\\src.obj
+          cmTC_82187.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\Debug\\cmTC_82187.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\Debug\\cmTC_82187.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_82187.dir\\Debug\\cmTC_82187.tlog\\cmTC_82187.write.1u.tlog" "cmTC_82187.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_82187.dir\\Debug\\cmTC_82187.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_82187.dir\\Debug\\cmTC_82187.tlog\\cmTC_82187.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\cmTC_82187.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\cmTC_82187.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-pedantic-errors" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xfdvbs\\cmTC_82187.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:440 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FVISIBILITY_HIDDEN"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-33ld9o"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-33ld9o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_FVISIBILITY_HIDDEN"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-33ld9o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5113.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:10.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\cmTC_e5113.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_e5113.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\Debug\\".
+          Создание каталога "cmTC_e5113.dir\\Debug\\cmTC_e5113.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e5113.dir\\Debug\\cmTC_e5113.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e5113.dir\\Debug\\cmTC_e5113.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FVISIBILITY_HIDDEN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5113.dir\\Debug\\\\" /Fd"cmTC_e5113.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -fvisibility=hidden "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FVISIBILITY_HIDDEN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5113.dir\\Debug\\\\" /Fd"cmTC_e5113.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -fvisibility=hidden "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-fvisibility=hidden" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\cmTC_e5113.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\Debug\\cmTC_e5113.exe" /INCREMENTAL /ILK:"cmTC_e5113.dir\\Debug\\cmTC_e5113.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-33ld9o/Debug/cmTC_e5113.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-33ld9o/Debug/cmTC_e5113.lib" /MACHINE:X64  /machine:x64 cmTC_e5113.dir\\Debug\\src.obj
+          cmTC_e5113.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\Debug\\cmTC_e5113.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\Debug\\cmTC_e5113.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_e5113.dir\\Debug\\cmTC_e5113.tlog\\cmTC_e5113.write.1u.tlog" "cmTC_e5113.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_e5113.dir\\Debug\\cmTC_e5113.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e5113.dir\\Debug\\cmTC_e5113.tlog\\cmTC_e5113.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\cmTC_e5113.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\cmTC_e5113.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-fvisibility=hidden" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-33ld9o\\cmTC_e5113.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.61
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:441 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSTACK_PROTECTOR_STRONG"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-arma0a"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-arma0a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSTACK_PROTECTOR_STRONG"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-arma0a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5ad35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:13.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\cmTC_5ad35.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_5ad35.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\Debug\\".
+          Создание каталога "cmTC_5ad35.dir\\Debug\\cmTC_5ad35.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_5ad35.dir\\Debug\\cmTC_5ad35.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_5ad35.dir\\Debug\\cmTC_5ad35.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSTACK_PROTECTOR_STRONG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ad35.dir\\Debug\\\\" /Fd"cmTC_5ad35.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -fstack-protector-strong "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSTACK_PROTECTOR_STRONG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ad35.dir\\Debug\\\\" /Fd"cmTC_5ad35.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -fstack-protector-strong "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-fstack-protector-strong" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\cmTC_5ad35.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\Debug\\cmTC_5ad35.exe" /INCREMENTAL /ILK:"cmTC_5ad35.dir\\Debug\\cmTC_5ad35.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-arma0a/Debug/cmTC_5ad35.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-arma0a/Debug/cmTC_5ad35.lib" /MACHINE:X64  /machine:x64 cmTC_5ad35.dir\\Debug\\src.obj
+          cmTC_5ad35.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\Debug\\cmTC_5ad35.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\Debug\\cmTC_5ad35.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_5ad35.dir\\Debug\\cmTC_5ad35.tlog\\cmTC_5ad35.write.1u.tlog" "cmTC_5ad35.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_5ad35.dir\\Debug\\cmTC_5ad35.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_5ad35.dir\\Debug\\cmTC_5ad35.tlog\\cmTC_5ad35.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\cmTC_5ad35.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\cmTC_5ad35.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-fstack-protector-strong" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-arma0a\\cmTC_5ad35.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.32
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake/AddCCompilerFlag.cmake:27 (check_c_compiler_flag)"
+      - "CMakeLists.txt:442 (add_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_C_FLAG_FSTACK_PROTECTOR_ALL"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-c59e8e"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-c59e8e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "HAVE_C_FLAG_FSTACK_PROTECTOR_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-c59e8e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4f626.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:16.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\cmTC_4f626.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_4f626.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\Debug\\".
+          Создание каталога "cmTC_4f626.dir\\Debug\\cmTC_4f626.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_4f626.dir\\Debug\\cmTC_4f626.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_4f626.dir\\Debug\\cmTC_4f626.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSTACK_PROTECTOR_ALL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f626.dir\\Debug\\\\" /Fd"cmTC_4f626.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -fstack-protector-all "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_C_FLAG_FSTACK_PROTECTOR_ALL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f626.dir\\Debug\\\\" /Fd"cmTC_4f626.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue  -fstack-protector-all "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\src.c"
+        cl : командная строка  warning D9002: пропуск неизвестного параметра "-fstack-protector-all" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\cmTC_4f626.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\Debug\\cmTC_4f626.exe" /INCREMENTAL /ILK:"cmTC_4f626.dir\\Debug\\cmTC_4f626.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-c59e8e/Debug/cmTC_4f626.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-c59e8e/Debug/cmTC_4f626.lib" /MACHINE:X64  /machine:x64 cmTC_4f626.dir\\Debug\\src.obj
+          cmTC_4f626.vcxproj -> E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\Debug\\cmTC_4f626.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\Debug\\cmTC_4f626.exe" "C:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_4f626.dir\\Debug\\cmTC_4f626.tlog\\cmTC_4f626.write.1u.tlog" "cmTC_4f626.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          Файл "cmTC_4f626.dir\\Debug\\cmTC_4f626.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_4f626.dir\\Debug\\cmTC_4f626.tlog\\cmTC_4f626.lastbuildstate".
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\cmTC_4f626.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\cmTC_4f626.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  warning D9002: пропуск неизвестного параметра "-fstack-protector-all" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c59e8e\\cmTC_4f626.vcxproj]
+        
+            Предупреждений: 1
+            Ошибок: 0
+        
+        Прошло времени 00:00:02.31
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ox7y7t"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ox7y7t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-ox7y7t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ccbaa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:18.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\cmTC_ccbaa.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_ccbaa.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\Debug\\".
+          Создание каталога "cmTC_ccbaa.dir\\Debug\\cmTC_ccbaa.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ccbaa.dir\\Debug\\cmTC_ccbaa.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ccbaa.dir\\Debug\\cmTC_ccbaa.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccbaa.dir\\Debug\\\\" /Fd"cmTC_ccbaa.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\src.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccbaa.dir\\Debug\\\\" /Fd"cmTC_ccbaa.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\src.c"
+          src.c
+        E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\cmTC_ccbaa.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\cmTC_ccbaa.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\cmTC_ccbaa.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ox7y7t\\cmTC_ccbaa.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:01.01
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-juskr7"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-juskr7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-juskr7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_50c3f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:20.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\cmTC_50c3f.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_50c3f.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\Debug\\".
+          Создание каталога "cmTC_50c3f.dir\\Debug\\cmTC_50c3f.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_50c3f.dir\\Debug\\cmTC_50c3f.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_50c3f.dir\\Debug\\cmTC_50c3f.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50c3f.dir\\Debug\\\\" /Fd"cmTC_50c3f.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50c3f.dir\\Debug\\\\" /Fd"cmTC_50c3f.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\Debug\\cmTC_50c3f.exe" /INCREMENTAL /ILK:"cmTC_50c3f.dir\\Debug\\cmTC_50c3f.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-juskr7/Debug/cmTC_50c3f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-juskr7/Debug/cmTC_50c3f.lib" /MACHINE:X64  /machine:x64 cmTC_50c3f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\cmTC_50c3f.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\cmTC_50c3f.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\cmTC_50c3f.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-juskr7\\cmTC_50c3f.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:01.11
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/CMakeLists.txt:39 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-632z5k"
+      binary: "E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-632z5k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 -Wall /W4"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/Blackflame/civetweb/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-632z5k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0401b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Версия MSBuild 17.8.3+195e7f5a3 для .NET Framework
+        Сборка начата 01.01.2024 16:17:21.
+        
+        Проект "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\cmTC_0401b.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_0401b.dir\\Debug\\".
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\Debug\\".
+          Создание каталога "cmTC_0401b.dir\\Debug\\cmTC_0401b.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_0401b.dir\\Debug\\cmTC_0401b.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_0401b.dir\\Debug\\cmTC_0401b.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Release"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0401b.dir\\Debug\\\\" /Fd"cmTC_0401b.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\CheckFunctionExists.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.38.33133 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0401b.dir\\Debug\\\\" /Fd"cmTC_0401b.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /errorReport:queue "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\Debug\\cmTC_0401b.exe" /INCREMENTAL /ILK:"cmTC_0401b.dir\\Debug\\cmTC_0401b.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-632z5k/Debug/cmTC_0401b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Blackflame/civetweb/build/CMakeFiles/CMakeScratch/TryCompile-632z5k/Debug/cmTC_0401b.lib" /MACHINE:X64  /machine:x64 cmTC_0401b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\cmTC_0401b.vcxproj]
+        Сборка проекта "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\cmTC_0401b.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\cmTC_0401b.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [E:\\Blackflame\\civetweb\\build\\CMakeFiles\\CMakeScratch\\TryCompile-632z5k\\cmTC_0401b.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.97
+        
+      exitCode: 1
+...
